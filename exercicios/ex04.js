@@ -3,6 +3,6 @@
 function processarTexto(texto, callbackModificadora) {
     callbackModificadora(texto);
 }
-function processarTexto(texto) {
-    ("senai valinhos");
-}
+processarTexto("senai valinhos", (texto) => {
+    console.log(texto.toUpperCase());
+})
